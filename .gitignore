@@ -1,0 +1,31 @@
+# Ignore Maven target directories (build outputs)
+**/target/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore Eclipse project files
+.project
+.classpath
+
+# Ignore Java class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore user-specific files (e.g., IDE project files)
+*.iml
+
+# Ignore OS-specific files (Mac, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore JAR files (optional)
+*.jar
+
+# Ignore Maven wrapper files (if using Maven wrapper)
+**/.mvn/
+
+# Ignore IDE-specific temporary files (like Scratch files)
+Scratches_and_Consoles/
